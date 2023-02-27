@@ -1,24 +1,7 @@
 **Myntra Clone Project**
 
 This is a clone project of Myntra, an online fashion and lifestyle store. The project is built using HTML, CSS, JS, and Node.js.
-Myntra is a major Indian fashion e-commerce company headquartered in Bengaluru, Karnataka, India. The company was founded in 2007 to sell personalized gift items. In May 2014, Myntra.com was acquired by Flipkart. we gave our best to clone this website.
-
-**Features**
-
-The Myntra clone project includes the following features:
-
-Homepage: A landing page with a search bar, a navigation bar, and a carousel of featured products.
-
-Product Catalog: A page with a list of all products, filter options, and sorting options.
-
-Product Details: A page with the details of a specific product, including its name, description, price, images, and reviews.
-
-Shopping Cart: A page that shows the products added to the cart, their quantity, and the total amount.
-
-Checkout: A page where the user can enter their shipping and payment information and place the order.
-
-Payment: A page where the user can save their card details which can be used while purchasing a product.
-
+Myntra is a major Indian fashion e-commerce company headquartered in Bengaluru, Karnataka, India. The company was founded in 2007 to sell personalized gift items. In May 2014, Myntra.com was acquired by Flipkart.
 
 **Installation**
 
@@ -31,8 +14,7 @@ To run the Myntra clone project, follow these steps:
 **Images of Project**
 
 **HOMEPAGE** 
-This is the homepage. 
-in this homepage we have a navigation bar, on clicking any option on the navigation bar it will navigate to the others pages on websites.
+This is the homepage , in this homepage we have a navigation bar, on clicking any option on the navigation bar it will navigate to the others pages on websites.
 ![image](https://user-images.githubusercontent.com/77974484/161418508-820faf68-9cea-4570-9fe5-6fe50085a908.png)
 
 *Outer and inner Men’s page.**
@@ -71,5 +53,3 @@ This is our order confirmed page, after placing and choosing the payment method 
 ![image](https://user-images.githubusercontent.com/77974484/161433073-291a3727-c191-42ad-be92-dd453264de10.png)
 **Collaboration tools.**
 *Git and Github.*
-Git: Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows
-Github: GitHub, Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its features.
