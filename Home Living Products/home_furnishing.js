@@ -501,7 +501,6 @@ var funitureData = [
   
     document.getElementById("container").innerHTML = "";
         
-         //  total
   
     funitureData.map(function (element) {
   
@@ -566,7 +565,6 @@ var funitureData = [
     
     })
     
-    // total end
   }
   
   
@@ -581,7 +579,7 @@ var funitureData = [
   localStorage.setItem("BagListObj" , JSON.stringify(bagList))
   }
   
-  // Filter
+ 
   
   
   
@@ -595,10 +593,6 @@ var funitureData = [
   document.querySelector(".fa-bag-shopping").addEventListener("click",function(){
   window.location.href ="../wishlist/cart.html"
   })
-  
-  // document.getElementById("normal").addEventListener("click" , function(){
-  //   window.location.reload()
-  // })
   
    var all = document.getElementById("brandFilter").value
   

@@ -2,7 +2,7 @@
 document.querySelector('.fa_user').addEventListener('click', function(){
     window.location.href = "../Profile/profile.html"
 })
-// HYPERLINKS
+
 document.querySelector('.fa-heart').addEventListener('click', function(){
     window.location.href = "../wishlist/wishlist.html"
 })

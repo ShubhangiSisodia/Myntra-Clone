@@ -81,7 +81,6 @@ main > aside{
     position: relative;
 }
 #megamenu{
-    /* visibility: hidden; */
     position: absolute; 
     background-color: #fff;
     left: 100%;
@@ -89,13 +88,7 @@ main > aside{
     top: 100%;
     bottom: 100%;
 }
-/* #megamenu_container:hover #megamenu{
-    display: none;
-} */
 
-
-
-/* MAIN ASIDE SECTION */
 aside{
     color: #626573;
 }

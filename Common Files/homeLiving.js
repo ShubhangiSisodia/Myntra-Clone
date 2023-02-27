@@ -1,6 +1,4 @@
 
-//<---------- HOME & LIVING SCRIPT CODES --------->//
-
 var anchors_para = [
     [
         {h4 : 'Furnishings & Bed Linen'},
@@ -56,7 +54,7 @@ var anchors_para = [
     var n = null; 
   
     //script for media queries
-    var value = window.matchMedia("(max-width: 850px)") //FOR TABLET VIEW
+    var value = window.matchMedia("(max-width: 850px)") 
       mFunction(value) 
       value.addListener(mFunction) 
       function mFunction(value) {
@@ -69,7 +67,7 @@ var anchors_para = [
     }
   
     for(let i=0; i<n; i++){
-        var asideDiv = document.createElement('div'); //container div for each part 
+        var asideDiv = document.createElement('div'); 
         asideDiv.setAttribute('class', 'aside_content'); 
     
         anchors_para[i].map(function(element){
@@ -91,7 +89,7 @@ var anchors_para = [
         document.querySelector('aside').append(asideDiv);
     }
   
-  //<--------- PRODUCT PAGE HYPERLINK ---------->//
+
   var z = document.querySelectorAll('img');
   for(let i=0; i<z.length; i++){
       z[i].addEventListener('click', function(){
@@ -99,7 +97,7 @@ var anchors_para = [
       })
   }
   
-  // LANDING PAGE
+
   document.getElementById('landingPage').addEventListener('click', function(){
       window.location.href = "/LandingPage/index.html"
   })

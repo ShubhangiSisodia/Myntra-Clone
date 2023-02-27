@@ -53,7 +53,7 @@ var categoryBag = [
   var z = null; 
   
     //script for media queries
-    var value = window.matchMedia("(max-width: 550px)") //FOR TABLET VIEW
+    var value = window.matchMedia("(max-width: 550px)") 
       mFunction(value) 
       value.addListener(mFunction) 
       function mFunction(value) {

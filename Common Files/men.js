@@ -1,14 +1,13 @@
 
   // <------- SLIDER IMAGES -------> //
   var slideImages = [
-    //FOR TABLET & DEKSTOP VIEW
+
     [{img_url : "https://bit.ly/3qJmvfK"},
     {img_url : "https://bit.ly/3uFdtl6"},
     {img_url : "https://bit.ly/3NqqqYR"},
     {img_url : "https://bit.ly/3NxptOo"},
     ],
 
-    //FOR MOBILE VIEW
     [{img_url : "https://bit.ly/35p0UBR"},
     {img_url: "https://bit.ly/38hbVX5"},
     {img_url: "https://bit.ly/3iOZ3t9"},
@@ -18,8 +17,8 @@
 
   var z = null; 
 
-    //script for media queries
-    var value = window.matchMedia("(max-width: 550px)") //FOR TABLET VIEW
+
+    var value = window.matchMedia("(max-width: 550px)") 
       mFunction(value) 
       value.addListener(mFunction) 
       function mFunction(value) {
